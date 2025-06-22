@@ -47,7 +47,7 @@
         <div id="lead-content">
             <h1>Sonwabise Mtirara</h1>
             <h2>ICT Business Analysis Graduate</h2>
-            <a href="SonwabiseCV.pdf" download="Sonwabise_Mtirara_CV.pdf" class="btn-rounded-white">
+            <a href="Current CV.docx" download="Sonwabise_Mtirara_CV.docx" class="btn-rounded-white">
                 <i class="fa fa-download" aria-hidden="true"></i> Download Resume
             </a>
         </div>
@@ -76,7 +76,18 @@
             </div>
         </div>
     </div>
-    <div id="projects" class="background-alt">
+    <div id="featured-news" class="background-alt">
+        <h2 class="heading">Featured News</h2>
+        <div class="container">
+            <div class="news-feature-simple">
+                <p>
+                    I was honored to be featured in an article by DUT for academic excellence upon graduating with my Diploma in ICT in Business Analysis (Cum Laude). The article highlights my commitment, journey, and the core values that drove my success.
+                </p>
+                <a href="https://www.dut.ac.za/mtirara-passes-diploma-in-ict-business-analysis-with-flying-colours/" target="_blank" class="btn-view-project">Read the Full Article</a>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
         <h2 class="heading">Academic Project Highlights</h2>
         
         <div class="container">
@@ -151,7 +162,7 @@
 
         </div>
     </div>
-    <div id="education">
+    <div id="education" class="background-alt">
         <h2 class="heading">Education</h2>
         <div class="container">
             <div class="row">
@@ -178,7 +189,7 @@
             </div>
         </div>
     </div>
-    <div id="certificates" class="background-alt">
+    <div id="certificates">
         <h2 class="heading">Certificates</h2>
         <div class="container">
             <div class="row">
@@ -257,7 +268,7 @@
             </div>
         </div>
     </div>
-    <div id="skills">
+    <div id="skills" class="background-alt">
         <h2 class="heading">Skills</h2>
         <div style="text-align: center;">
             <h3>Technical Skills</h3>
@@ -333,7 +344,33 @@
         .btn-rounded-white .fa {
             margin-right: 10px;
         }
+        
+        /* Featured News Layout */
+        #featured-news {
+            padding: 50px 15px;
+            text-align: center;
+        }
+        .news-feature-simple {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+        }
+        .news-feature-simple p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #374054;
+            margin-bottom: 25px;
+        }
+        
         /* Project Highlights Layout */
+        #projects {
+            padding: 50px 15px;
+            border-top: 1px solid #dcd9d9;
+        }
         .project-block {
             margin-bottom: 50px;
             padding: 30px;
@@ -387,6 +424,9 @@
         }
 
         /* Education Card Layout */
+        #education {
+            padding: 50px 15px;
+        }
         #education .education-block { display: none; } /* Hide old layout */
         .education-card {
             background: #fff;
@@ -411,7 +451,7 @@
         .education-card h4 {
             font-size: 1.4em;
             font-weight: 700;
-            color: #374054;
+            color: #3498db;
             margin: 10px 0;
         }
         .education-card span {
@@ -420,6 +460,9 @@
         }
 
         /* Skills Layout */
+        #skills {
+            padding: 50px 15px;
+        }
         #skills ul {
             padding: 0;
         }
@@ -439,6 +482,10 @@
         }
         
         /* Contact Info Layout */
+        #contact {
+            padding: 50px 15px;
+            background: #26292b; /* A darker, more professional contact background */
+        }
         .contact-info {
             max-width: 500px;
             margin: 0 auto;
@@ -452,10 +499,10 @@
             text-decoration: none;
             font-size: 1.2em;
             margin-bottom: 15px;
+            transition: color 0.3s ease;
         }
         .contact-link:hover {
-            text-decoration: underline;
-            color: white;
+            color: #3498db;
         }
         .contact-link .fa {
             margin-right: 10px;
@@ -467,6 +514,9 @@
         }
         
         /* Certificate Card Layout */
+        #certificates {
+            padding: 50px 15px;
+        }
         .certificate-card {
             background: #fff;
             border-radius: 5px;
